@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Document</title>
+    <link rel="stylesheet" href="mStyles.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css">
+
+</head>
+
+<body>
+
+
+    <div class="navbar">
+        <img id="image_bg" src="hw1_images/ss_sign.jpg" alt="restaurant sign">
+        <div class="header">
+            <div class="navbar_container">
+                <a href="index.html" id="navbar_logo"><img src="hw1_images/logoImage_ss.png" alt="logo image"
+                        id="logo_nav"></a>
+                <div class="nav_toggle" id="web-menu">
+                    <span class="bar"></span>
+
+                </div>
+                <ul class="nav_menu">
+                    <li class="navitem"><a href="index.html" class="nav_itemlink" id="homePage">Home</a></li>
+                    <li class="navitem"><a href="menu.html" class="nav_itemlink" id="menuPage">Menu</a></li>
+                    <li class="navitem"><a href="about.html" class="nav_itemlink" id="aboutPage">About</a></li>
+                    <li class="navitem"><a href="contact.html" class="nav_itemlink" id="contactPage">Contact</a></li>
+                </ul>
+
+                <a href="cart.html" class="cart-icon">🛒 <span id="cart-count">0</span></a>
+
+            </div>
+
+        </div>
+    </div>
+
+    <a href="menu.html">←Back to Menu</a>
+
+    <div class="cart-container">
+        <div class="cart-items">
+
+        </div>
+
+        <div id="cart-summary">
+
+            <p>Total: $<span id="cart-total">0.00</span> </p>
+            <button id="check-out">Check Out</button>
+
+        </div>
+    </div>
+
+
+
+    <script src="jMenu.js"></script>
+</body>
+<footer class="f-container">
+    <div class="footer-content">
+        <div class="footer-text">
+            <h3>Hours:</h3>
+            <p>Thursday 10:30 AM–1 AM <br>
+                Friday 10:30 AM–1 AM <br>
+                Saturday 10:30 AM–1 AM <br>
+                Sunday 10:30 AM–1 AM <br>
+                Monday 10:30 AM–1 AM <br>
+                Tuesday 10:30 AM–1 AM <br>
+                Wednesday 10:30 AM–1 AM <br>
+            </p>
+        </div>
+        <div class="footer-social">
+            <a href="https://facebook.com" target="_blank" aria-label="facebook">
+                <i class="fab fa-facebook-f"></i>
+            </a>
+            <a href="https://twitter.com" target="_blank" aria-label="twitter">
+                <i class="fab fa-twitter"></i>
+            </a>
+            <a href="https://instagram.com" target="_blank" aria-label="instagram">
+                <i class="fab fa-instagram"></i>
+            </a>
+        </div>
+    </div>
+</footer>
+
+</html>

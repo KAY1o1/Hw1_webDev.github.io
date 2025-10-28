@@ -168,7 +168,14 @@ body{
     margin-bottom: 30px;
 }
 
+.cart-icon{
+    margin: 10px;
+    display:flex;
+    text-decoration: none;
+    font-size: 1.5rem;
+    position: relative;
 
+}
 
 
 @media screen and (max-width: 568px){
